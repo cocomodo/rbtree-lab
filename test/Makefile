@@ -1,6 +1,6 @@
 .PHONY: test
 
-CFLAGS=-I ../src -Wall -g #-DSENTINEL
+CFLAGS=-I ../src -Wall -g -DSENTINEL #센티널을 사용하기 위해 -DSENTINEL을 붙여줌.
 
 test: test-rbtree
 	./test-rbtree
